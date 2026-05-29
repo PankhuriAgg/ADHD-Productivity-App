@@ -1,0 +1,24 @@
+name: the_brain
+description: ADHD Companion App – The Brain
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add these later when you're ready for AI features:
+  # http: ^1.2.0       ← for calling an AI API
+  # shared_preferences: ^2.2.0  ← to save tasks locally
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
